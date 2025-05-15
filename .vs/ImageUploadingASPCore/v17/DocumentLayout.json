@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\name\\source\\repos\\14_ImageUploadingASPCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|c:\\users\\name\\source\\repos\\14_imageuploadingaspcore\\imageuploadingaspcore\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|solutionrelative:imageuploadingaspcore\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|c:\\users\\name\\source\\repos\\14_imageuploadingaspcore\\imageuploadingaspcore\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|solutionrelative:imageuploadingaspcore\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|c:\\users\\name\\source\\repos\\14_imageuploadingaspcore\\imageuploadingaspcore\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|solutionrelative:imageuploadingaspcore\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|c:\\users\\name\\source\\repos\\14_imageuploadingaspcore\\imageuploadingaspcore\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|solutionrelative:imageuploadingaspcore\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|c:\\users\\name\\source\\repos\\14_imageuploadingaspcore\\imageuploadingaspcore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|solutionrelative:imageuploadingaspcore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|c:\\users\\name\\source\\repos\\14_imageuploadingaspcore\\imageuploadingaspcore\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|solutionrelative:imageuploadingaspcore\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07CF0D4E-894E-4FCA-B7B2-6F2D14ED7A6C}|ImageUploadingASPCore\\ImageUploadingASPCore.csproj|c:\\users\\name\\source\\repos\\14_imageuploadingaspcore\\imageuploadingaspcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,21 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\name\\source\\repos\\14_ImageUploadingASPCore\\ImageUploadingASPCore\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "ImageUploadingASPCore\\Views\\Product\\Details.cshtml",
-              "ToolTip": "C:\\Users\\name\\source\\repos\\14_ImageUploadingASPCore\\ImageUploadingASPCore\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "ImageUploadingASPCore\\Views\\Product\\Details.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T17:47:47.596Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -69,9 +56,22 @@
               "RelativeDocumentMoniker": "ImageUploadingASPCore\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Users\\name\\source\\repos\\14_ImageUploadingASPCore\\ImageUploadingASPCore\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "ImageUploadingASPCore\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAkwC0AAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T17:13:19.048Z",
+              "WhenOpened": "2025-05-15T18:14:07.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\name\\source\\repos\\14_ImageUploadingASPCore\\ImageUploadingASPCore\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "ImageUploadingASPCore\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\name\\source\\repos\\14_ImageUploadingASPCore\\ImageUploadingASPCore\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "ImageUploadingASPCore\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T17:47:47.596Z",
               "EditorCaption": ""
             },
             {
@@ -88,26 +88,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AddProduct.cshtml",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\14_ImageUploadingASPCore\\ImageUploadingASPCore\\Views\\Product\\AddProduct.cshtml",
               "RelativeDocumentMoniker": "ImageUploadingASPCore\\Views\\Product\\AddProduct.cshtml",
               "ToolTip": "C:\\Users\\name\\source\\repos\\14_ImageUploadingASPCore\\ImageUploadingASPCore\\Views\\Product\\AddProduct.cshtml",
               "RelativeToolTip": "ImageUploadingASPCore\\Views\\Product\\AddProduct.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-15T16:31:29.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\14_ImageUploadingASPCore\\ImageUploadingASPCore\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ImageUploadingASPCore\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\name\\source\\repos\\14_ImageUploadingASPCore\\ImageUploadingASPCore\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ImageUploadingASPCore\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAcwDsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwEYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T16:21:59.818Z",
               "EditorCaption": ""

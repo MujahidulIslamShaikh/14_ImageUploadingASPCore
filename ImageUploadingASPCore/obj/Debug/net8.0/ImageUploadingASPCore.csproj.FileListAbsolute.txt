@@ -574,3 +574,4 @@ C:\Users\name\source\repos\14_ImageUploadingASPCore\ImageUploadingASPCore\obj\De
 C:\Users\name\source\repos\14_ImageUploadingASPCore\ImageUploadingASPCore\obj\Debug\net8.0\ImageUploadingASPCore.pdb
 C:\Users\name\source\repos\14_ImageUploadingASPCore\ImageUploadingASPCore\obj\Debug\net8.0\ImageUploadingASPCore.genruntimeconfig.cache
 C:\Users\name\source\repos\14_ImageUploadingASPCore\ImageUploadingASPCore\obj\Debug\net8.0\ref\ImageUploadingASPCore.dll
+C:\Users\name\source\repos\14_ImageUploadingASPCore\ImageUploadingASPCore\obj\Debug\net8.0\ImageUploadingASPCore.sourcelink.json

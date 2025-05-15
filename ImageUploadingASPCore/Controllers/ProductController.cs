@@ -35,25 +35,42 @@ namespace ImageUploadingASPCore.Controllers
         public IActionResult AddProduct(ProductVewModel prod)
         {
             string fileName = "";
-            if (prod.Photo!=null)
+            if (prod.Photo != null)
             {
-                string folder = Path.Combine(env.WebRootPath, "images");
-                fileName = Guid.NewGuid().ToString() + "_" + prod.Photo.FileName;
-                string filePath = Path.Combine(folder, fileName);
-                prod.Photo.CopyTo(new FileStream(filePath, FileMode.Create));
-
-                Product p = new Product()
+                var ext = Path.GetExtension(prod.Photo.FileName);
+                var size = prod.Photo.Length;
+                if (ext.Equals(".png") || ext.Equals(".jpg") || ext.Equals(".jpeg"))
                 {
-                    Name = prod.Name,
-                    Price = prod.Price,
-                    ImagePath = fileName
-                };
-                context.Products.Add(p);
-                context.SaveChanges();
-                TempData["Success"] = "Product Added.. ";
-                return RedirectToAction("Index"); // kyuki all product mai retreive karooga in Index page pe
-            } 
-            return View();
+                    if (size <= 1000000) // 1000000 Bytes = 1Mb
+                    {
+
+                    
+                    string folder = Path.Combine(env.WebRootPath, "images");
+                    fileName = Guid.NewGuid().ToString() + "_" + prod.Photo.FileName;
+                    string filePath = Path.Combine(folder, fileName);
+                    prod.Photo.CopyTo(new FileStream(filePath, FileMode.Create));
+
+                    Product p = new Product()
+                    {
+                        Name = prod.Name,
+                        Price = prod.Price,
+                        ImagePath = fileName
+                    };
+                    context.Products.Add(p);
+                    context.SaveChanges();
+                    TempData["Success"] = "Product Added.. ";
+                    return RedirectToAction("Index"); // kyuki all product mai retreive karooga in Index page pe
+                    } else
+                    {
+                        TempData["Size_Error"] = "Image must be less than 1Mb";
+
+                    }
+                }
+            } else
+            {
+                TempData["Ext_Error"] = "Only PNG, JGP, JPEG images are allowed.";
+            }
+                return View();
         }
 
 
